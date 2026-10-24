@@ -2,6 +2,7 @@ Module module() {
   return module(
     name: "micronaut.jackson",
     version: 3,
+    exports: ["JacksonDatabindMapper"],
     binding: jarBinding(
       target: mavenJar(
         group: "io.micronaut",
